@@ -16,7 +16,7 @@ function App() {
   );
 
   return (
-    <div className={`${bgClass} text-white min-h-screen relative`}> 
+    <div className={`${bgClass} text-white min-h-screen relative`}>
       <Navbar theme={theme} onToggleTheme={() => setTheme((t) => (t === 'neon' ? 'minimal' : 'neon'))} />
 
       {/* Neon grid background */}
@@ -32,7 +32,7 @@ function App() {
         <Hero theme={theme} />
         <AboutContact />
         <SkillsProjects theme={theme} />
-        <footer id="contact" className="py-14 text-center text-sm text-cyan-100/70">
+        <footer className="py-14 text-center text-sm text-cyan-100/70">
           <span className="opacity-80">© {new Date().getFullYear()} Bhaskar Talukder — Built with neon and glass.</span>
         </footer>
       </main>

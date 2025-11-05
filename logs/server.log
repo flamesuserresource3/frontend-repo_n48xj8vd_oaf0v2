@@ -3,13 +3,13 @@
 > vite
 
 
-  VITE v5.4.20  ready in 262 ms
+  VITE v5.4.20  ready in 282 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.12.146:3000/
-5:53:16 AM [vite] Pre-transform error: Transform failed with 1 error:
+5:55:57 AM [vite] Pre-transform error: Transform failed with 1 error:
 /home/workspace/src/App.jsx:62:68: ERROR: Expected "}" but found "as"
-5:53:16 AM [vite] Internal server error: Transform failed with 1 error:
+5:55:58 AM [vite] Internal server error: Transform failed with 1 error:
 /home/workspace/src/App.jsx:62:68: ERROR: Expected "}" but found "as"
   Plugin: vite:esbuild
   File: /home/workspace/src/App.jsx:62:68
